@@ -15,8 +15,7 @@ the rollout of vaccines for COVID-19, these synthetic mRNAs have become broadly
 distributed RNA species in numerous human populations. Despite their ubiquity, sequences
 are not always available for such RNAs. Standard methods facilitate such sequencing. In this
 note, we provide experimental sequence informationfor the RNA components of the initial
-[Moderna](https://pubmed.ncbi.nlm.nih.gov/32756549/)and [Pfizer/BioNTech](https://pubmed.ncbi.nlm.nih.gov/33301246/)
-COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously
+[Moderna](https://pubmed.ncbi.nlm.nih.gov/32756549/)and [Pfizer/BioNTech](https://pubmed.ncbi.nlm.nih.gov/33301246/) COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously
 reported sequence information for the latter RNA.
 
 Sharing of sequence information for broadly used therapeutics has the benefit of allowing any
@@ -74,9 +73,8 @@ ProtoAcknowledgements: Thanks to our colleagues for help and suggestions (Nimit 
 Emily Greenwald, Lamia Wahba, William Wang, Amisha Kumar, Sameer Sundrani, David
 Lipman, Marc Salit, Bijoyita Roy).
 
-### Figure 1: Spike-encoding contig assembled from BioNTech/PfizerBNT-162b
-vaccine.
- Although the full coding region is included,the nature of the methodology used for
+### Figure 1: Spike-encoding contig assembled from BioNTech/PfizerBNT-162b vaccine.
+Although the full coding region is included,the nature of the methodology used for
 sequencing and assembly is such that the assembled contig could lack some sequence from
 the ends of the RNA. Within the assembled sequence, this hypothetical sequence shows a
 perfect match to the corresponding sequence from documents available online derived from
@@ -91,9 +89,11 @@ This is a partial sequence of the vaccine RNA. Although the full coding region i
 assembled contig could lack some sequence from the ends of the RNA.
 
 
+
 **Figure 1: Spike-encoding contig assembled from BioNTech/PfizerBNT-162b vaccine.**
 
-<span style="background-color:cyan">GAGAATAAACTAGTATTCTTCTGGTCCCCACAGACTCAGAGAGAACCCGCCACC</span><span style="background-color: green">ATG</span><span style="background-color:yellow">TTCGTGTTCCTGGTGCTGCTGCCTCTGGTGTCCAGCCAGTGTGTG</span><span style="background-color:orange">AACCTGACCACCAGAACACAGCTGCCTCCAGCCTACACCAACAGCTTTACCAGAGGCGTGTACTACCCCGACAAGGTGTT
+<span style="background-color:cyan">GAGAATAAACTAGTATTCTTCTGGTCCCCACAGACTCAGAGAGAACCCGCCACC</span><span style="background-color: green">ATG</span><span style="background-color:yellow">TTCGTGTTCCTGGTGCTGCTGCCTCTGGTGTCCA
+    GCCAGTGTGTG</span><span style="background-color:orange">AACCTGACCACCAGAACACAGCTGCCTCCAGCCTACACCAACAGCTTTACCAGAGGCGTGTACTACCCCGACAAGGTGTT
 CAGATCCAGCGTGCTGCACTCTACCCAGGACCTGTTCCTGCCTTTCTTCAGCAACGTGACCTGGTTCCACGCCATCCACGTGTCCGGCACC
 AATGGCACCAAGAGATTCGACAACCCCGTGCTGCCCTTCAACGACGGGGTGTACTTTGCCAGCACCGAGAAGTCCAACATCATCAGAGGCT
 GGATCTTCGGCACCACACTGGACAGCAAGACCCAGAGCCTGCTGATCGTGAACAACGCCACCAACGTGGTCATCAAAGTGTGCGAGTTCCA
@@ -127,21 +127,32 @@ TCGCCAACCAGTTCAACAGCGCCATCGGCAAGATCCAGGACAGCCTGAGCAGCACAGCAAGCGCCCTGGGAAAGCTGCAG
 CCAGAATGCCCAGGCACTGAACACCCTGGTCAAGCAGCTGTCCTCCAACTTCGGCGCCATCAGCTCTGTGCTGAACGATATCCTGAGCAGA
 CTGGACCCTCCTGAGGCCGAGGTGCAGATCGACAGACTGATCACAGGCAGACTGCAGAGCCTCCAGACATACGTGACCCAGCAGCTGATCA
 GAGCCGCCGAGATTAGAGCCTCTGCCAATCTGGCCGCCACCAAGATGTCTGAGTGTGTGCTGGGCCAGAGCAAGAGAGTGGACTTTTGCGG
-CAAGGGCTACCACC</span><span style="background-color: red">TGATGA</span><span style="background-color: magenta">CTCGAGCTGGTACTGCATGCACGCAATGCTAGCTGCCCCTTTCCCGTCCTGGGTACCCCGAGTCTCCCCCGACCTCGGGTCCCAGGTATGCTCCCACCTCCACCTGCCCCACTCACCACCTCTGCTAGTTCCAGACACCTCCCAAGCACGCAGCAATGCAGCTCAAAACGCTTAGCCTAGCCACACCCCCACGGGAAACAGCAGTGATTAACCTTTAGCAATAAACGAAAGTTTAACTAAGCTATACTAACCCCAGGGTTGGTCAATTTCGTGCCAGCCACACCCTGGAGCTAGC</span><span style="background-color:blue">A</blue>
+CAAGGGCTACCACC</span><span style="background-color: red">TGATGA</span><span style="background-color: magenta">CTCGAGCTGGTACTGCATGCACGCAATGCTAGCTGCCCCTTTCCCGTCC
+    TGGGTACCCCGAGTCTCCCCCGAC
+    CTCGGGTCCCAGGTATGCTCCCACCTCCACCTGCCCCACTCACCACCTCTGCTAGTTCCAGACACCTCCCAAGCACGCAGCAATGCAGCTCAA
+    AACGCTTAGCCTAGCCACACCCCCACGGGAAACAGCAGTGATTAACCTTTAGCAATAAACGAAAGTTTAACTAAGCTATACTAACCCCAGGGTTGGTCAATTTCGTGCCAGCCACACCCTGGAGCTAGC</span><span style="background-color:blue">A</blue>
 
 
 <span style="background-color: cyan">Cyan: Putative 5’ UTR</span>
+
 <span style="background-color: green">Green: Start Codon</span>
+
 <span style="background-color: yellow">Yellow: Signal Peptide</span>
+
 <span style="background-color: orange">Orange: Spike encoding region</span>
+
 <span style="background-color: red">Red: Stop codon(s)</span>
+
 <span style="background-color: magenta">Purple: 3’ UTR</span>
+
 <span style="background-color: blue">Blue: Start of polyA region (incomplete)</span>
+
 
 
 **Figure 2: Spike-encoding contig assembled from Moderna mRNA-1273 vaccine.**
 
-<span style="background-color: cyan">GGGAAATAAGAGAGAAAAGAAGAGTAAGAAGAAATATAAGACCCCGGCGCCGCCACC</span><span style="background-color: green">ATG</span><span style="background-color: yellow">TTCGTGTTCCTGGTGCTGCTGCCCCTGGTGAGCAGCCAGTGCGTG</span><span style="background-color: orange">AACCTGACCACCCGGACCCAGCTGCCACCAGCCTACACCAACAGCTTCACCCGGGGCGTCTACTACCCCGACAAGGT
+<span style="background-color: cyan">GGGAAATAAGAGAGAAAAGAAGAGTAAGAAGAAATATAAGACCCCGGCGCCGCCACC</span><span style="background-color: green">ATG</span><span style="background-color: yellow">TTCGTGTTCCTGGTGCTGCTGCCCCTGGTGA
+    GCAGCCAGTGCGTG</span><span style="background-color: orange">AACCTGACCACCCGGACCCAGCTGCCACCAGCCTACACCAACAGCTTCACCCGGGGCGTCTACTACCCCGACAAGGT
 GTTCCGGAGCAGCGTCCTGCACAGCACCCAGGACCTGTTCCTGCCCTTCTTCAGCAACGTGACCTGGTTCCACGCCATCCACGTGAGCGGC
 ACCAACGGCACCAAGCGGTTCGACAACCCCGTGCTGCCCTTCAACGACGGCGTGTACTTCGCCAGCACCGAGAAGAGCAACATCATCCGGG
 GCTGGATCTTCGGCACCACCCTGGACAGCAAGACCCAGAGCCTGCTGATCGTGAATAACGCCACCAACGTGGTGATCAAGGTGTGCGAGTT
@@ -182,13 +193,20 @@ CAACACCGTGTACGATCCCCTGCAGCCCGAGCTGGACAGCTTCAAGGAGGAGCTGGACAAGTACTTCAAGAATCACACCA
 GACCTGGGCGACATCAGCGGCATCAACGCCAGCGTGGTGAACATCCAGAAGGAGATCGATCGGCTGAACGAGGTGGCCAAGAACCTGAACG
 AGAGCCTGATCGACCTGCAGGAGCTGGGCAAGTACGAGCAGTACATCAAGTGGCCCTGGTACATCTGGCTGGGCTTCATCGCCGGCCTGAT
 CGCCATCGTGATGGTGACCATCATGCTGTGCTGCATGACCAGCTGCTGCAGCTGCCTGAAGGGCTGTTGCAGCTGCGGCAGCTGCTGCAAG
-TTCGACGAGGACGACAGCGAGCCCGTGCTGAAGGGCGTGAAGCTGCACTACACC</span><span style="background-color: red">TGATAATAG</span><span style="background-color: magenta">GCTGGAGCCTCGGTGGCCTAGCTTCTTGCCCCTTGGGCCTCCCCCCAGCCCCTCCTCCCCTTCCTGCACCCGTACCCCCGTGGTCTTTGAATAAAGTCTGAGTGGGCGGCA</span><span style="background-color: blue">AAAAAAAA</span>
+TTCGACGAGGACGACAGCGAGCCCGTGCTGAAGGGCGTGAAGCTGCACTACACC</span><span style="background-color: red">TGATAATAG</span><span style="background-color: magenta">GCTGGAGCCTCGGTGGCCTAGCTTCTTGCCC
+    CTTGGGCCTCCCCCCAGCCCCTCCTCCCCTTCCTGCACCCGTACCCCCGTGGTCTTTGAATAAAGTCTGAGTGGGCGGCA</span><span style="background-color: blue">AAAAAAAA</span>
 
 
 <span style="background-color: cyan">Cyan: Putative 5’ UTR</span>
+
 <span style="background-color: green">Green: Start Codon</span>
+
 <span style="background-color: yellow">Yellow: Signal Peptide</span>
+
 <span style="background-color: orange">Orange: Spike encoding region</span>
+
 <span style="background-color: red">Red: Stop codon(s)</span>
+
 <span style="background-color: magenta">Purple: 3’ UTR</span>
+
 <span style="background-color: blue">Blue: Start of polyA region (incomplete)</span>
