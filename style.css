@@ -1,0 +1,120 @@
+/*
+ * CSS for making a resume with pandoc. Inspired by moderncv.
+ *
+ * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+ * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+ */
+
+/* Whole document */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 9px 9px 9px 9px;
+    font-size: 12px;
+}
+
+/* Title of the resume */
+h1 {
+    font-size: 40px;
+    color: #446fff;
+    text-align:center;
+    margin-top: 4px;
+    margin-bottom:8px;
+}
+h1:hover {
+    color: #094fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Titles of categories */
+h2 {
+    color: #000000;
+    margin-bottom:3px;
+}
+h2:hover {
+    color: #094fff;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 10%;
+    height: 10px;
+    background-color: #0936ff;
+}
+h3 {
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+h4 {
+    margin-bottom: 2px;
+}
+
+h5{
+    color: #989898;
+    margin-top: 2px;
+    margin-botton: 3px;
+    padding: 0px;
+}
+
+/* Definitions */
+dl{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    margin-bottom: 25px; /*Space out these sections*/
+    /*font-weight: bold;*/
+}
+dd {
+    margin-left: 20%;
+}
+p {
+    margin-top:0;
+    margin-bottom:3px;
+}
+
+/* Blockquotes */
+blockquote {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 3px;
+    text-align: center;
+}
+
+ul{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-top: 0px;
+    padding-left: 4px;
+}
+
+li{
+    margin-top: 2px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #001488;
+}
+a:hover, a:active {
+    background-color: #0084ff;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #333;
+}
+
+/* Horizontal separators */
+hr {
+    color: #A6A6A6;
+}

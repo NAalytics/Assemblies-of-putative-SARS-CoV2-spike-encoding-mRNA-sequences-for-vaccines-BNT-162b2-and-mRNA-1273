@@ -1,5 +1,4 @@
-# Assemblies of putative SARS-CoV2-spike-encoding mRNA sequences for
-vaccines BNT-162b2 and mRNA-1273. 
+# Assemblies of putative SARS-CoV2-spike-encoding mRNA sequences for vaccines BNT-162b2 and mRNA-1273.
 
 ### (version 0.1.1Beta 03/23/21)
 
@@ -16,8 +15,8 @@ the rollout of vaccines for COVID-19, these synthetic mRNAs have become broadly
 distributed RNA species in numerous human populations. Despite their ubiquity, sequences
 are not always available for such RNAs. Standard methods facilitate such sequencing. In this
 note, we provide experimental sequence informationfor the RNA components of the initial
-[Moderna](https://pubmed.ncbi.nlm.nih.gov/32756549/)and [Pfizer/BioNTech](https://pubmed.ncbi.nlm.nih.gov/33301246/) 
-COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously 
+[Moderna](https://pubmed.ncbi.nlm.nih.gov/32756549/)and [Pfizer/BioNTech](https://pubmed.ncbi.nlm.nih.gov/33301246/)
+COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously
 reported sequence information for the latter RNA.
 
 Sharing of sequence information for broadly used therapeutics has the benefit of allowing any
@@ -193,5 +192,3 @@ TTCGACGAGGACGACAGCGAGCCCGTGCTGAAGGGCGTGAAGCTGCACTACACC</span><span style="backgr
 <span style="background-color: red">Red: Stop codon(s)</span>
 <span style="background-color: magenta">Purple: 3’ UTR</span>
 <span style="background-color: blue">Blue: Start of polyA region (incomplete)</span>
-
-
