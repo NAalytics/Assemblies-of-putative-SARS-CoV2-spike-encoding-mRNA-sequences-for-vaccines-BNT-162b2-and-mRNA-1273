@@ -1,4 +1,4 @@
-Assemblies of putative SARS-CoV2-spike-encoding mRNA sequences for vaccines BNT-162b2 and mRNA-1273.    							 
+ Assemblies of putative SARS-CoV2-spike-encoding mRNA sequences for vaccines BNT-162b2 and mRNA-1273.    							 
 ##version 0.2Beta 03/30/21: (update intended to (i) clarify the clinical and research importance of sequence information and strand topology measurements, and (ii) clarify that the mRNA sequence is not a recipe to produce vaccine)##
 
 Dae-Eun Jeong, Matthew McCoy, Karen Artiles, Orkan Ilbay, Andrew Fire*, Kari Nadeau, Helen Park, Brooke Betts, Scott Boyd, Ramona Hoh, and Massa Shoura*
@@ -27,4 +27,7 @@ ProtoAcknowledgements: We thank our colleagues here for their help and suggestio
 Figure 1: Spike-encoding contig assembled from BioNTech/Pfizer BNT-162b2 vaccine.  Although the full coding region is included, the nature of the methodology used for sequencing and assembly is such that the assembled cDNA-derived contig could lack some sequence from the ends of the vaccine RNA and would lack any indication of base modifications.  Within the assembled sequence, this hypothetical sequence shows a perfect match to the corresponding sequence from documents available online derived from manufacturer communications with the World Health Organization [as reported by https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/].. The 5’ end for the assembly matches the start site noted in these documents, while the read-based assembly lacks an interrupted polyA tail (A30(GCATATGACT)A70) that is expected to be present in the mRNA.  
 
 Figure 2: Spike-encoding contig assembled from Moderna mRNA-1273 vaccine.  This is a partial sequence of the vaccine RNA.  Although the full coding region is included, the assembled contig could lack some sequence from the ends of the vaccine RNA.  
+
+
+
 
