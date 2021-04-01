@@ -1,5 +1,4 @@
-Assemblies‌ ‌of‌ ‌putative‌ ‌SARS-CoV2-spike-encoding‌ ‌mRNA‌ ‌sequences‌ ‌for‌ ‌vaccines‌ ‌
-BNT-162b2‌ ‌and‌ ‌mRNA-1273.‌    							 
+Assemblies of putative SARS-CoV2-spike-encoding mRNA sequences for vaccines BNT-162b2 and mRNA-1273.    					 
 ##version 0.2Beta 03/30/21: (update intended to (i) clarify the clinical and research importance of sequence information and strand topology measurements, and (ii) clarify that the mRNA sequence is not a recipe to produce vaccine)##
 
 Dae-Eun Jeong, Matthew McCoy, Karen Artiles, Orkan Ilbay, Andrew Fire*, Kari Nadeau, Helen Park, Brooke Betts, Scott Boyd, Ramona Hoh, and Massa Shoura*
