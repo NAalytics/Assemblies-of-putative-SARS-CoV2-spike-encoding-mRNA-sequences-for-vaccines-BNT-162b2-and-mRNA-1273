@@ -4,8 +4,9 @@
 
 **Authors:** Dae-Eun Jeong, Matthew McCoy, Karen Artiles, Orkan Ilbay, Andrew Fire, Kari Nadeau, Helen Park, Brooke Betts, Scott Boyd, Ramona Hoh, and Massa Shoura.
 
-__Departments of Pathology, Genetics, Pediatrics, and Medicine, Stanford University School of Medicine and Veterans Affairs Palo Alto Medical Center
-*Correspondence: afire@stanford.edu and/or massa86@stanford.edu.__
+Departments of Pathology, Genetics, Pediatrics, and Medicine, Stanford University School of Medicine and Veterans Affairs Palo Alto Medical Center.
+
+**Correspondence:** afire@stanford.edu and/or massa86@stanford.edu.
 
 ### Abstract
 
