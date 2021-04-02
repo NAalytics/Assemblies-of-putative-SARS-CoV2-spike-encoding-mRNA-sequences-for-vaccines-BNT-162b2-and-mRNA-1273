@@ -2,16 +2,22 @@
 
 > version 0.2Beta 03/30/21: (update intended to (i) clarify the clinical and research importance of sequence information and strand topology measurements, and (ii) clarify that the mRNA sequence is not a recipe to produce vaccine)
 
-Dae-Eun Jeong, Matthew McCoy, Karen Artiles, Orkan Ilbay, Andrew Fire*, Kari Nadeau, Helen Park, Brooke Betts, Scott Boyd, Ramona Hoh, and Massa Shoura*
+**Authors:** Dae-Eun Jeong, Matthew McCoy, Karen Artiles, Orkan Ilbay, Andrew Fire, Kari Nadeau, Helen Park, Brooke Betts, Scott Boyd, Ramona Hoh, and Massa Shoura.
 
-Departments of Pathology, Genetics, Pediatrics, and Medicine, Stanford University School of Medicine and Veterans Affairs Palo Alto Medical Center
-*Correspondence: afire@stanford.edu and/or massa86@stanford.edu.
+__Departments of Pathology, Genetics, Pediatrics, and Medicine, Stanford University School of Medicine and Veterans Affairs Palo Alto Medical Center
+*Correspondence: afire@stanford.edu and/or massa86@stanford.edu.__
 
-Abstract: RNA vaccines have become a key tool in moving forward through the challenges raised both in the current pandemic and in numerous other public health and medical challenges.  With the rollout of vaccines for COVID-19, these synthetic mRNAs have become broadly distributed RNA species in numerous human populations.  Despite their ubiquity, sequences are not always available for such RNAs.  Standard methods facilitate such sequencing.  In this note, we provide experimental sequence information for the RNA components of the initial Moderna (https://pubmed.ncbi.nlm.nih.gov/32756549/) and Pfizer/BioNTech (https://pubmed.ncbi.nlm.nih.gov/33301246/) COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously reported sequence information for the latter RNA.
+### Abstract
 
-Objective: Sharing of sequence information for broadly used therapeutics has substantial benefit in design of improved clinical tools and precise diagnostics.  As examples of such applications, (i) Any medical or public health analysis relying on high throughput sequencing data to track SARS-COV2 and its variants would benefit from knowledge of vaccine sequences in order to distinguish RNA sequencing reads coming from the vaccine from those of viral origin, and (ii) Diagnostic labs designing nucleic acid surveillance tests (like PCR or LAMP assays) can benefit from vaccine sequence information to avoid confusion between vaccinated and infected test subjects when analyzing assay results. 
+RNA vaccines have become a key tool in moving forward through the challenges raised both in the current pandemic and in numerous other public health and medical challenges.  With the rollout of vaccines for COVID-19, these synthetic mRNAs have become broadly distributed RNA species in numerous human populations.  Despite their ubiquity, sequences are not always available for such RNAs.  Standard methods facilitate such sequencing.  In this note, we provide experimental sequence information for the RNA components of the initial Moderna (https://pubmed.ncbi.nlm.nih.gov/32756549/) and Pfizer/BioNTech (https://pubmed.ncbi.nlm.nih.gov/33301246/) COVID-19 vaccines, allowing a working assembly of the former and a confirmation of previously reported sequence information for the latter RNA.
 
-Description: For this work, RNAs were obtained as discards from the small portions of vaccine doses that remained in vials after immunization; such portions would have been required to be otherwise discarded and were analyzed under FDA authorization for research use.  To obtain the small amounts of RNA needed for characterization, vaccine remnants were phenol-chloroform extracted using TRIzol Reagent (Invitrogen), with intactness assessed by Agilent 2100 Bioanalyzer before and after extraction.  
+### Objective
+
+Sharing of sequence information for broadly used therapeutics has substantial benefit in design of improved clinical tools and precise diagnostics.  As examples of such applications, (i) Any medical or public health analysis relying on high throughput sequencing data to track SARS-COV2 and its variants would benefit from knowledge of vaccine sequences in order to distinguish RNA sequencing reads coming from the vaccine from those of viral origin, and (ii) Diagnostic labs designing nucleic acid surveillance tests (like PCR or LAMP assays) can benefit from vaccine sequence information to avoid confusion between vaccinated and infected test subjects when analyzing assay results. 
+
+### Description
+
+For this work, RNAs were obtained as discards from the small portions of vaccine doses that remained in vials after immunization; such portions would have been required to be otherwise discarded and were analyzed under FDA authorization for research use.  To obtain the small amounts of RNA needed for characterization, vaccine remnants were phenol-chloroform extracted using TRIzol Reagent (Invitrogen), with intactness assessed by Agilent 2100 Bioanalyzer before and after extraction.  
 
 Although our analysis mainly focused on RNAs obtained as soon as possible following discard, we also analyzed samples which had been refrigerated (~4 ℃) for up to 42 days with and without the addition of EDTA.  Interestingly a substantial fraction of the RNA remained intact in these preparations.  We note that the formulation of the vaccines includes numerous key chemical components which are quite possibly unstable under these conditions-- so these data certainly do not suggest that the vaccine as a biological agent is stable.  But it is of interest that chemical stability of RNA itself is not sufficient to preclude eventual development of vaccines with a much less involved cold-chain storage and transportation. 
 
@@ -23,8 +29,14 @@ RNA preparations lacking dsRNA are desirable in generating vaccine formulations 
 
 This work provides an initial assessment of two RNAs that are now a part of the human ecosystem and that are likely to appear in numerous other high throughput RNA-seq studies in which a fraction of the individuals may have previously been vaccinated.
 
-ProtoAcknowledgements: We thank our colleagues here for their help and suggestions (Nimit Jain, Emily Greenwald, Nelson Hall, Lamia Wahba, William Wang, Amisha Kumar, Sameer Sundrani, David Lipman, Marc Salit), and additionally acknowledge numerous colleagues who have discussed and educated us (directly and indirectly) in areas of RNA synthesis enzymology, vaccine design, and software engineering.
+### ProtoAcknowledgements
 
-Figure 1: Spike-encoding contig assembled from BioNTech/Pfizer BNT-162b2 vaccine.  Although the full coding region is included, the nature of the methodology used for sequencing and assembly is such that the assembled cDNA-derived contig could lack some sequence from the ends of the vaccine RNA and would lack any indication of base modifications.  Within the assembled sequence, this hypothetical sequence shows a perfect match to the corresponding sequence from documents available online derived from manufacturer communications with the World Health Organization [as reported by https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/].. The 5’ end for the assembly matches the start site noted in these documents, while the read-based assembly lacks an interrupted polyA tail (A30(GCATATGACT)A70) that is expected to be present in the mRNA.  
+We thank our colleagues here for their help and suggestions (Nimit Jain, Emily Greenwald, Nelson Hall, Lamia Wahba, William Wang, Amisha Kumar, Sameer Sundrani, David Lipman, Marc Salit), and additionally acknowledge numerous colleagues who have discussed and educated us (directly and indirectly) in areas of RNA synthesis enzymology, vaccine design, and software engineering.
 
-Figure 2: Spike-encoding contig assembled from Moderna mRNA-1273 vaccine.  This is a partial sequence of the vaccine RNA.  Although the full coding region is included, the assembled contig could lack some sequence from the ends of the vaccine RNA.  
+### Figure 1
+
+Spike-encoding contig assembled from BioNTech/Pfizer BNT-162b2 vaccine.  Although the full coding region is included, the nature of the methodology used for sequencing and assembly is such that the assembled cDNA-derived contig could lack some sequence from the ends of the vaccine RNA and would lack any indication of base modifications.  Within the assembled sequence, this hypothetical sequence shows a perfect match to the corresponding sequence from documents available online derived from manufacturer communications with the World Health Organization [as reported by https://berthub.eu/articles/posts/reverse-engineering-source-code-of-the-biontech-pfizer-vaccine/].. The 5’ end for the assembly matches the start site noted in these documents, while the read-based assembly lacks an interrupted polyA tail (A30(GCATATGACT)A70) that is expected to be present in the mRNA.  
+
+### Figure 2
+
+Spike-encoding contig assembled from Moderna mRNA-1273 vaccine.  This is a partial sequence of the vaccine RNA.  Although the full coding region is included, the assembled contig could lack some sequence from the ends of the vaccine RNA.  
